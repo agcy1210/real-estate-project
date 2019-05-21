@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9rf!-g(noe#**c-t2!v6o9+^iz2r$zwtfs9k3ta82fb#8ik&%j'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['agcyestate.herokuapp.com','localhost']
 
