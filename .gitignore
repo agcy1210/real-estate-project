@@ -5,7 +5,9 @@
 __pycache__/
 local_settings.py
 venv
-media
+/media
+/static
+db.sqlite3
 
 
 
