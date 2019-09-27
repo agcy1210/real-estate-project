@@ -1,4 +1,4 @@
---> cltr + alt + 'f' -- to reformat your code according to python guidelines
+-> cltr + alt + 'f' -- to reformat your code according to python guidelines
 
 #creating a virtual environment
 1) Run following command to create a virtual environment
