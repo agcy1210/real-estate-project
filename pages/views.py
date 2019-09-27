@@ -12,9 +12,9 @@ def index(request):
 		'listings': listings,
 		'state_choices': state_choices,
 		'price_choices': price_choices,
-		'bedroom_choices': bedroom_choices 
+		'bedroom_choices': bedroom_choices
 	}
-	return render(request, 'pages/index.html',context) 
+	return render(request, 'pages/index.html',context)
 #location of index.html in template folder so that it can render from there
 
 def about(request):

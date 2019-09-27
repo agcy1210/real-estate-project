@@ -1,3 +1,5 @@
+--> cltr + alt + 'f' -- to reformat your code according to python guidelines
+
 #creating a virtual environment
 1) Run following command to create a virtual environment
 $python3 -m venv ./venv		#venv is name of virtual environment.You can set whatever you wants
@@ -38,7 +40,7 @@ only 1st time --> In your app's directory create a folder urls.py and set up tha
 ####creating view
 optional -> If want to create template then create one
 3) Create that view in views.py of your app
-4) Go to urls.py of your app & insert that path of the view in urlpattern	
+4) Go to urls.py of your app & insert that path of the view in urlpattern
 
 
 ###While writing href links in html :
@@ -55,7 +57,11 @@ $python3 manage.py migrate
 4) Register the models in app's admin.py to show them on admin page
 -->$sqlitebrowser	#To open the sqlitebrowser
 
+#to reset all migrations
+$python manage.py migrate --fake myappname zero
 
 #for inserting media files:
 1) Go to settings.py and add media root and url
 2) Go to urls.py of main project and add static to it
+
+
