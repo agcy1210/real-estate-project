@@ -4,7 +4,7 @@ agcyestate is the real estate webapp where where listings with detailed informat
 
 ## Installation (Mac and Linux)
 
-Clone the repo and then run the following commands
+Clone the repo and then run the following commands.
 
 - Create a virtual environment
 ```bash
@@ -21,7 +21,7 @@ pip3 install -r requirements.txt
 
 ## Installation (Windows)
 
-Clone the repo and then run the following commands
+Clone the repo and then run the following commands.
 
 - Create a virtual environment
 ```bash
