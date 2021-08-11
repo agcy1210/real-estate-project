@@ -25,7 +25,7 @@ SECRET_KEY = '9rf!-g(noe#**c-t2!v6o9+^iz2r$zwtfs9k3ta82fb#8ik&%j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['agcyestate.herokuapp.com']
+ALLOWED_HOSTS = ['agcyestate.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -147,7 +147,3 @@ EMAIL_USE_TLS = True
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-
-# import dj_database_url
-# prod_db  =  dj_database_url.config(conn_max_age=500)
-# DATABASES['default'].update(prod_db)
